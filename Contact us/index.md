@@ -13,7 +13,7 @@ p {
   margin-left: 40px;
   text-align: center;
 
-button{
+.button{
   background-color: #0000ff;
   text-align: center;
 }
@@ -31,7 +31,7 @@ button{
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
-
+  <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
