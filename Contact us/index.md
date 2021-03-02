@@ -10,8 +10,12 @@ eleventyNavigation:
 <style>
 
 p {
+  margin-left: 30px;
+  text-align: center;}
+
+p1 {
   margin-left: 40px;
-  text-align: center;
+  text-align: center;}
 
 button{
   background-color: #0000ff;
@@ -23,7 +27,7 @@ button{
 </style>
 
 <br>
-<p> We will contact you: </P>
+<p1> We will contact You: </P>
 <br>
 
 <form name="contact" method="POST" data-netlify="true">
@@ -34,7 +38,7 @@ button{
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Your Mobile Number: <input type="Mobile" name="Mobile" /></label>
+    <label>Your Mobile: <input type="Mobile" name="Mobile" /></label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
