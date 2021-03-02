@@ -13,9 +13,11 @@ p {
   margin-left: 40px;
   text-align: center;
 
-.button{
+button{
   background-color: #0000ff;
   text-align: center;
+  border: black;
+  border-width: 2px;
 }
 
 </style>
@@ -30,6 +32,9 @@ p {
   </p>
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Mobile Number: <input type="Mobile" name="Mobile" /></label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
