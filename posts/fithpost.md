@@ -1,5 +1,5 @@
 ---
-title: This is my Fifth post.
+title: Calculate Tip.
 description: This is just some Js
 date: 2021-03-08
 layout: layouts/post.njk
